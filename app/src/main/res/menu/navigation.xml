@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_monitoring"
+        android:icon="@drawable/ic_monitoring"
+        android:title="@string/title_monitoring" />
+
+    <item
+        android:id="@+id/navigation_notifikasi"
+        android:icon="@drawable/ic_notifikasi"
+        android:title="@string/title_notifikasi" />
+
+    <item
+        android:id="@+id/navigation_tentang"
+        android:icon="@drawable/ic_tentang"
+        android:title="@string/title_tentang" />
+
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/ic_keluar"
+        android:title="@string/title_logout" />
+
+</menu>

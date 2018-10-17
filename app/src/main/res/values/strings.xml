@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Fire Early Warning System</string>
+
+    <string name="api_url_user">http://fews.laurensius-dede-suhardiman.com/index.php/api/android_user/</string>
+
+    <string name="api_url_admin_monitorig">http://fews.laurensius-dede-suhardiman.com/index.php/api/admin_monitoring/</string>
+    <string name="api_login">http://fews.laurensius-dede-suhardiman.com/index.php/api/verifikasi/</string>
+    <string name="title_activity_fire_app">Fire Early Warning System</string>
+    <string name="title_monitoring">Monitoring</string>
+    <string name="title_notifikasi">Notifikasi</string>
+    <string name="title_tentang">Tentang</string>
+    <string name="title_logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tentang">
+        Fire Early Warning System merupakan aplikasi Android yang berfungsi untuk monitoring kondisi
+        keamanan kios / toko terhadap ancaman kebakaran. Pada aplikasi ini dilengkapi notifikasi (peringatan)
+        yang akan disampaikan kepada user menegenai kondisi ketika terindikasi terjadi kebakaran. Data pada notifikasi
+        bersumber dari sensor yang dipasang di area kios / toko. Sensor secara berkala akan membaca kondisi disekitarnya dan
+        mengirimkan data ke webservice untuk diolah menjadi notifikasi.
+    </string>
+
+    <string name="notif_bahaya">Kondisi toko / kios Anda dalam bahaya.</string>
+    <string name="notif_normal">Kondisi toko / kios Anda aman. Suhu ada dalam keadaan normal, tidak terdeteksi asap maupun api.</string>
+
+</resources>
